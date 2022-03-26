@@ -1,0 +1,13 @@
+{
+  "name": "Super Mario Themed Snake Game",
+  "version": "0.1.1",
+  "description": "Super Mario Themed Snake Game built using vanilla JavaScript.",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^2.13.1",
+    "eslint-plugin-import": "^1.9.2",
+    "eslint-plugin-mocha": "^8.0.0"
+  },
+  "author": "Rain Hsu",
+  "license": "ISC"
+}

@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('../src/assets/wallpaper.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#head,
+.snakeBody {
+  height: 50px;
+  width: 50px;
+  background-image: url('../src/assets/mario.png');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  background-size: center center;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+#board {
+  height: 700px;
+  width: 700px;
+  border: 2px black solid;
+  position: relative;
+  background-color: transparent;
+  border-radius: 8px;
+  box-shadow: 4.6px 9.1px 9.1px hsl(0deg 0% 0% / 0.36);
+  margin-bottom: 3%;
+  padding: 5px;
+}
+
+.title {
+  color: rgb(228, 22, 22);
+  font-size: 50px;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+#apple {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+}
+
+.score {
+  font-weight: 700;
+  font-size: 24px;
+  color: #118811;
+}
+
+.panel {
+  right: 100px;
+  margin: 100px;
+  margin-bottom: 35%;
+}
+
+#reset-button {
+  background-color: lightgreen;
+  color: black;
+  width: auto;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 2px 1px 0px 1px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+#reset-button:active {
+  background-color: lightgreen;
+  box-shadow: 2px 1px 0px 1px;
+  /* translateY moves an element vertically on 2D plane*/
+  transform: translateY(4px);
+}
+
+#reset-button:hover {
+  cursor: pointer;
+}
